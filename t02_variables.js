@@ -13,7 +13,7 @@ let money= 10;
 /****************************
 Main code 
 ****************************/
-console.log(" Hi " + username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars")
+console.log("Hi " + username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars")
 
 
 
