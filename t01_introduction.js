@@ -1,5 +1,5 @@
 /****************************
-name of task:
+name of task: Intro
 ****************************/
 console.log("Running T1-intro.js");
 
