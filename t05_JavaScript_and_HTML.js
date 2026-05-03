@@ -29,3 +29,6 @@ console.log("You get $3," +" now you have "+ (halfmoney + 3) + " dollars ")
 /****************************
  Functions
 ****************************/
+<div id="JavaScriptOutput">
+<p>This will be replaced</p>
+</div>
