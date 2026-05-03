@@ -1,7 +1,7 @@
 /****************************
 name of task: Math
 ****************************/
-console.log("Running task 05");
+console.log("Running t05_javascriptandHTML.js");
 
 //Variables 
 let username="Diwakar";
@@ -13,6 +13,9 @@ let oldAge;
 oldAge= age + 10;
 birthYear= year - age;
 halfmoney= money / 2
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
 /****************************
 Main code 
@@ -29,6 +32,3 @@ console.log("You get $3," +" now you have "+ (halfmoney + 3) + " dollars ")
 /****************************
  Functions
 ****************************/
-const OUTPUT = document.getElementById("JavaScriptOutput");
-
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
