@@ -1,7 +1,7 @@
 /****************************
 name of task: Math
 ****************************/
-console.log("Running T1-intro.js");
+console.log("");
 
 //Variables 
 let username="Diwakar";
