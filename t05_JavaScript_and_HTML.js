@@ -19,12 +19,12 @@ OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 /****************************
 Main code 
 ****************************/
-OUTPUT.innerHTML +=("Hi " + username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars")
-OUTPUT.innerHTML("You were born in " + birthYear)
-OUTPUT.innerHTML("In 10 years you will be " + oldAge + " years old")
-OUTPUT.innerHTML("You have " + money + " dollars")
-OUTPUT.innerHTML("You spend half your money, now you have " + halfmoney + " dollars")
-OUTPUT.innerHTML("You get $3," +" now you have "+ (halfmoney + 3) + " dollars ")
+OUTPUT.innerHTML "<p>Hi " + username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars</p>";
+OUTPUT.innerHTML += "<p>You were born in " + birthYear</p>;
+OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + " years old"</p>;
+OUTPUT.innerHTML += "<p>You have " + money + " dollars"</p>;
+OUTPUT.innerHTML += "<p>You spend half your money, now you have " + halfmoney + " dollars/p>";
+OUTPUT.innerHTML += "<p>You get $3," +" now you have "+ (halfmoney + 3) + " dollars</p>"</p>;
 
 
 
