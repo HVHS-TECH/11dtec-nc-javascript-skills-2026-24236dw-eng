@@ -32,3 +32,8 @@ OUTPUT.innerHTML += "<p>You get $3," +" now you have "+ (halfmoney + 3) + " doll
 /****************************
  Functions
 ****************************/
+function welcome () {
+OUTPUT.innerHTML += "<p>Welcome to my shop</p>"
+
+}
+welcome ();
