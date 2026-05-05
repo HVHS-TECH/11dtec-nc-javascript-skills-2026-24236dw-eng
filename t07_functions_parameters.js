@@ -37,3 +37,4 @@ OUTPUT.innerHTML += "<p>Welcome to my shop</p>"
 
 }
 welcome ();
+ function display 
