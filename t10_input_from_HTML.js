@@ -18,4 +18,16 @@ function getFormInput(){
 const NAME_FIElD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
+}function getFormInput(){
+const NAME_FIElD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
+}function getFormInput(){
+const NAME_FIElD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
+}function getFormInput(){
+const NAME_FIElD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
