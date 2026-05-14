@@ -21,6 +21,6 @@ OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
 function getFormInput(){
 const MONEY_FIELD = document.getElementById("moneyField");
-let userName = NAME_FIELD.value;
+let userName = MONEY_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
