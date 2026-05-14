@@ -8,7 +8,7 @@ OUTPUT.innerHTML = "Hello world!<br>";
 /****************************
  Functions
  
-****************************/
+ ****************************/
 function start() {
   console.log("Button pressed!");
 
