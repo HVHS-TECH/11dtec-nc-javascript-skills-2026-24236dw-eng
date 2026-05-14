@@ -20,7 +20,7 @@ let userName = NAME_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
 function getFormInput(){
-const NAME_FIELD = document.getElementById("moneyField");
+const MONEY_FIELD = document.getElementById("moneyField");
 let userName = NAME_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
