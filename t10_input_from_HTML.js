@@ -19,9 +19,8 @@ const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
-
 function getFormInput(){
 const MONEY_FIELD = document.getElementById("moneyField");
-let moneyName = NAME_FIELD.value;
+let moneyName = MONEY_FIELD.value;
 OUTPUT.innerHTML ="<p>You have "+moneyName+"</p>";
 }
