@@ -12,7 +12,7 @@ OUTPUT.innerHTML= "Hello world!<br>";
 function start() {
   console.log("Button pressed!");
 
-  output.innerHTML = "<p>You pressed the button!</p>";
+  OUTPUT.innerHTML = "<p>You pressed the button!</p>";
 }
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
