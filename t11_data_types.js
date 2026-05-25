@@ -22,3 +22,6 @@ OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 let name = "Diwakar";
 let age = 15;
 let isAwake = true;
+
+let userAge = AGE_FIELD.value;
+let userAge = "15"
