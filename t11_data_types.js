@@ -19,3 +19,6 @@ const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
+let name = "Diwakar";
+let age = 15;
+let isAwake = true;
