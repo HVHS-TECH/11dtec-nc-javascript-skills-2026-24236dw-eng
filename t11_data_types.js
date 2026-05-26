@@ -42,4 +42,4 @@ let money= 10;
 let birthYear;
 let oldAge;
 
-const output = 
+const output = AGE_FIELD.value
