@@ -1,4 +1,8 @@
-console.log("t10_ijput_from_HTML.js");
+console.log("t11_ijput_from_HTML.js");
+/****************************
+ Variables
+****************************/
+let userAge = Number(AGE_FIELD.value);
 
 /****************************
  Main Code
