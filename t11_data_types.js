@@ -19,8 +19,10 @@ function start() {
   OUTPUT.innerHTML = "<p>You pressed the button!</p>";
 }
 function getFormInput(){
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.value;
+const AGE_FIELD_FIELD = document.getElementById("ageField");
+let userName = AGE_FIELD.value;
 OUTPUT.innerHTML ="<p>Your name is "+userName+"</p>";
 }
+
+
 
