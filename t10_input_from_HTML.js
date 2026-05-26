@@ -26,9 +26,9 @@ function getFormInput() {
   let userBirthYear = BIRTHYEAR_FIELD.value;
 
   OUTPUT.innerHTML =
-  "<p>Your name is " + userName + "</p>";
-  "<p>Your money is $" + userMoney + "</p>";
-  "<p>Your age is " + userAge + "</p>";
+  "<p>Your name is " + userName + "</p>" +
+  "<p>Your money is $" + userMoney + "</p>" +
+  "<p>Your age is " + userAge + "</p>" +
   "<p>Your birth year is " + userBirthYear + "</p>";
 
 }
