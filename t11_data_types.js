@@ -35,3 +35,11 @@ num1+num;
 
 let userAgeString = AGE_FIELD.value;
 let userAge = NUMBER(AGE_FIELD.value);
+let username="Diwakar";
+let year= 2026;
+let age= 16;
+let money= 10;
+let birthYear;
+let oldAge;
+
+const output = 
