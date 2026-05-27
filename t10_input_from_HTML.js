@@ -9,11 +9,11 @@ OUTPUT.innerHTML = "Hello world!<br>";
  Functions
  
  ****************************/
-function start() {
+function start(){
   console.log("Button pressed!");
 
   OUTPUT.innerHTML = "<p>You pressed the button!</p>";
-}
+
 function getFormInput() {
   const NAME_FIELD = document.getElementById("nameField");
   const MONEY_FIELD = document.getElementById("moneyField");
@@ -32,4 +32,4 @@ function getFormInput() {
   "<p>Your birth year is " + userBirthYear + "</p>";
 
 }
-
+}
