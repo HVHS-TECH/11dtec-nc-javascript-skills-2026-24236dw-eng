@@ -1,4 +1,4 @@
-console.log("t11_ijput_from_HTML.js");
+console.log("12_conditionals.js");
 
 /****************************
  Main Code
@@ -31,13 +31,4 @@ function getFormInput() {
   "<p>Your age is " + userAge + "</p>" +
   "<p>Your birth year is " + userBirthYear + "</p>";
 
-}
-if (age < 70){
-console.log("Definitely to young")
-}
-if (age >= 70){
-console.log("Might be to old")
-}
-if (age == 70){
-console.log("Just right")
 }
