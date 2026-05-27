@@ -42,13 +42,22 @@ function getFormInput() {
   "<p>Your age is " + userAge + "</p>" +
   "<p>Your birth year is " + userBirthYear + "</p>";
 }
-  if (age < 70){
-console.log("Definitely to young")
+
+function start() {
+spaceForJavaScriptOutput.innerHTML
+spaceForJavaScriptOutput.innerHTML
+answer = currentYear - userAge
+spaceForJavaScriptOutput.innerHTML
 }
+  if (age < 70){
+console.log("Definitely to young") 
+}
+
 if (age >= 70){
 console.log("Might be to old")
 }
-if (age == 70){
+
+if (age = 70){
 console.log("Just right")
 }
 
