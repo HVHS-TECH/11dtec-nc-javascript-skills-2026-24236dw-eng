@@ -53,11 +53,18 @@ spaceForJavaScriptOutput.innerHTML
 console.log("Definitely to young") 
 }
 
-if (age >=70){
+if (age > 70){
 console.log("Might be to old")
 }
 
-if (age == 70){
+if (age = 70){
 console.log("Just right")
 }
 
+
+if (money = 4){
+console.log("Just enough to buy a chocolate")
+}
+if (money > 4){
+console.log("Not enough money to buy a chocolate")
+}
