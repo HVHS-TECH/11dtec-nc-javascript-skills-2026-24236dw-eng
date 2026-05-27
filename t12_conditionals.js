@@ -1,4 +1,4 @@
-console.log("12_conditionals.js");
+console.log("t12_conditionals.js");
 
 /****************************
  Main Code
