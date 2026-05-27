@@ -30,5 +30,13 @@ function getFormInput() {
   "<p>Your money is $" + userMoney + "</p>" +
   "<p>Your age is " + userAge + "</p>" +
   "<p>Your birth year is " + userBirthYear + "</p>";
-
+  if (age < 70){
+console.log("Definitely to young")
+}
+if (age >= 70){
+console.log("Might be to old")
+}
+if (age == 70){
+console.log("Just right")
+}
 }
