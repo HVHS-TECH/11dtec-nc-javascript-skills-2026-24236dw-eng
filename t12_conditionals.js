@@ -1,5 +1,16 @@
 console.log("t12_conditionals.js");
 
+//Variables 
+let username="Diwakar";
+let year= 2026;
+let age= 16;
+let money= 10;
+let birthYear;
+let oldAge;
+oldAge= age + 10;
+birthYear= year - age;
+halfmoney= money / 2
+
 /****************************
  Main Code
 ****************************/
