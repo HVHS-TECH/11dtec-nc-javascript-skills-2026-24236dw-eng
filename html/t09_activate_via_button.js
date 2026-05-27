@@ -2,12 +2,7 @@ console.log("Running Task 09...");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-/****************************
 
-
-/****************************
- Functions
-****************************/
 function start() {
 //Variables 
 let username="Diwakar";
