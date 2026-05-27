@@ -1,6 +1,6 @@
 console.log("Running Task 09...");
 
-const output = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 /****************************
  Main Code
