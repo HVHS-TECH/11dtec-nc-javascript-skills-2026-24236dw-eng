@@ -5,6 +5,16 @@ console.log("t10_ijput_from_HTML.js");
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "Hello world!<br>";
+//Variables 
+let username="Diwakar";
+let year= 2026;
+let age= 16;
+let money= 10;
+let birthYear;
+let oldAge;
+oldAge= age + 10;
+birthYear= year - age;
+halfmoney= money / 2
 /****************************
  Functions
  
