@@ -9,6 +9,18 @@ OUTPUT.innerHTML = "Hello world!<br>";
  Functions
  
  ****************************/
+function welcome () {
+OUTPUT.innerHTML += "<p>Welcome to my shop</p>"
+
+}
+welcome ();
+function displayProduct(_name, _price) {
+OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
+}
+displayProduct("Chocolate bar", 4);
+displayProduct("Chips", 3);
+displayProduct("Drink", 2.50);
+
 function start() {
   console.log("Button pressed!");
 
