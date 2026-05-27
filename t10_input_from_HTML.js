@@ -1,14 +1,7 @@
 console.log("t10_ijput_from_HTML.js");
-
-/****************************
- Main Code
-****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "Hello world!<br>";
-/****************************
- Functions
- 
- ****************************/
+
+
 function start(){
   console.log("Button pressed!");
 
