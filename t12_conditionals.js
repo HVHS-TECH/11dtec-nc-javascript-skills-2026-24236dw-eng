@@ -65,9 +65,12 @@ console.log("Just right")
 if (money < 4){
 console.log("You have so much money buy 1")
 } 
-else 
+else {
 
   
+}
+
+
 if (money > 4){
 console.log("Not enough money to buy a chocolate")
 }
