@@ -66,7 +66,7 @@ if (money < 4){
 console.log("You have so much money buy 1")
 } 
 else {
-nomoney = ("no money no chocolate")
+console.log("no money no chocolate")
 
 }
 if (money > 4){
