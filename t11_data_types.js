@@ -37,8 +37,8 @@ functions
 ****************************/
 
 function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userAge = NAME_FIELD.value;
+    const USERAGE_FIELD = document.getElementById("userageField");
+    let userAge = USERAGE_FIELD.value;
     OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
 
 }
