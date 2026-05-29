@@ -45,7 +45,7 @@ function getFormInput(){
 
 
 function welcome(){
-    OUTPUT.innerHTML += "<p>welcome to the shop:";
+    OUTPUT.innerHTML += "<p>welcome to the shop<p>";
 }
 
 function displayProduct(_name, _price){
