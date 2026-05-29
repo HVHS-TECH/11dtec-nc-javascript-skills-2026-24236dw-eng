@@ -16,15 +16,13 @@ function start() {
   OUTPUT.innerHTML = "<p>You pressed the button!</p>";
 }
 function getFormInput() {
-  const NAME_FIELD = document.getElementById("nameField");
-  const MONEY_FIELD = document.getElementById("moneyField");
-  const AGE_FIELD = document.getElementById("ageField");
-  const BIRTHYEAR_FIELD = document.getElementById("BirthyearField");
+  const USERNAGE_FIELD = document.getElementById("UserAgeField");
+  const POCKETMONEY_FIELD = document.getElementById("PocketMoneyField");
 
-  let userName = NAME_FIELD.value;
-  let userMoney = MONEY_FIELD.value;
-  let userAge = AGE_FIELD.value;
-  let userBirthYear = BIRTHYEAR_FIELD.value;
+
+  let userName = USERAGE_FIELD.value;
+  let userMoney = POCKETMONEY_FIELD.value;
+
 
   OUTPUT.innerHTML =
   "<p>Your name is " + userName + "</p>" +
