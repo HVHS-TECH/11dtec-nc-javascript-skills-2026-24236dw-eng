@@ -23,13 +23,6 @@ function getFormInput() {
   let userName = USERAGE_FIELD.value;
   let userMoney = POCKETMONEY_FIELD.value;
 
-
-  OUTPUT.innerHTML =
-  "<p>Your name is " + userName + "</p>" +
-  "<p>Your money is $" + userMoney + "</p>" +
-  "<p>Your age is " + userAge + "</p>" +
-  "<p>Your birth year is " + userBirthYear + "</p>";
-
 }
 function welcome () {
 OUTPUT.innerHTML += "<p>Welcome to my shop</p>"
@@ -46,3 +39,8 @@ displayProduct("Drink", 2.50);
 
 
 
+   OUTPUT.innerHTML =
+  "<p>Your name is " + userName + "</p>" +
+  "<p>Your money is $" + userMoney + "</p>" +
+  "<p>Your age is " + userAge + "</p>" +
+  "<p>Your birth year is " + userBirthYear + "</p>";
