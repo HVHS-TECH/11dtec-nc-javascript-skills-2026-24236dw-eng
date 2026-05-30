@@ -39,6 +39,13 @@ displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
 }
+
+if (age < 70){
+console.log ( "<p>You can not buy a chocolate<p>" )
+}
+else (age > 70)
+console.log ("you can buy a chocolate")
+
     
 /****************************
 functions
