@@ -40,11 +40,10 @@ displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
 }
 
-if (age < 70){
-console.log ("You can not buy a chocolate")
-}
-else if (age > 70)
-console.log ("you can buy a chocolate")
+if (userMoney < chocolateCost) {
+OUTPUT.innerHTML += "<p>A chocolate bar costs $4<br> Sorry you can not afford a chcocolate bar</p>";
+} else (userMoney> chocolateCost) 
+OUTPUT.innerHTML += "<p>>A chocolate bar costs $4<br>You can afford a chocolate bar.</p>";
 
     
 /****************************
