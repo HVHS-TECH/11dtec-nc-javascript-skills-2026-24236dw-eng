@@ -41,7 +41,7 @@ displayProduct("<p>drink: ", "$2.50");
 }
 
 if (age < 70){
-console.log ( "<p>You can not buy a chocolate<p>" )
+console.log ("You can not buy a chocolate")
 }
 else (age > 70)
 console.log ("you can buy a chocolate")
