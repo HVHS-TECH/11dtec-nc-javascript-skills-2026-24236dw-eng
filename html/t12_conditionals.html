@@ -1,52 +1,48 @@
-/****************************
-data types
-****************************/
+<!DOCTYPE html>
+<html lang="en">
 
-console.log("Running t11_data_types.js")
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
+<head>
+  <title>T12-conditionals</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-//variables
+  <!-- stylesheets *******************************************-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
+</head>
+
+<!--*************************************************************
+  BODY
+**************************************************************-->
+
+<body>
+  <h1>T12-conditionals</h1>
+  <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
+
+  <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+<button onClick="start()">start </button>
+
+<form onsubmit="return false;">
+<label for=":formName">Name:</label>
+<input type="text" id="nameField" name="formName" placeholder="Name">
+<label for=":formName">Age:</label>
+<input type="number" id="ageField" name="formName" placeholder="age">
+<label for=":formName">Pocket money:</label>
+<input type="number" id="moneyField" name="formName" placeholder="Pocket money">
+<input type="submit" onClick=getFormInput()>
+</form>
+  <div id="spaceForJavaScriptOutput">
+
+    The output of your script will go here.
+
+  </div>
 
 
-/****************************
-main code
-****************************/
-function start(){
-const NAME_FIELD = document.getElementById("nameField");
- let Username = NAME_FIELD.value;
-const AGE_FIELD = document.getElementById("ageField");
- let Userage = Number(AGE_FIELD.value);
- const MONEY_FIELD = document.getElementById("moneyField");
-let UserpocketMoney = Number(MONEY_FIELD.value);
-let name = "Diwakar";
-let pocketMoney = 2;
-let age = 16;
-let year = 2026;
-var yearBorn = year-Userage;
-var tenYears = Userage+10;
-var halfMoney = UserpocketMoney/2;
-var plusThree = UserpocketMoney/2+3;
-OUTPUT.innerHTML += "<p>Hi "+ Username;
-OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
-OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
-OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears;
-OUTPUT.innerHTML += "<p>you have " + UserpocketMoney + " dollars.";
-OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + halfMoney + " dollars";
-OUTPUT.innerHTML += "<p>then you get $3, you now have " + plusThree + " dollars" ;
-welcome()
-displayProduct("<p>chocolate: ", "$4.00");
-displayProduct("<p>chips: ", "$3.00");
-displayProduct("<p>drink: ", "$2.50");
-}
+  <script src="../t12_conditionals.js"></script>
 
-/****************************
-functions
-****************************/
-function welcome(){
-    OUTPUT.innerHTML += "<p>welcome to the shop:";
-}
+</body>
 
-function displayProduct(_name, _price){
-    OUTPUT.innerHTML += _name + _price
-}
+</html>
+<!--*************************************************************
+  END OF T12_CONDITIONALS.HTML
+**************************************************************-->
