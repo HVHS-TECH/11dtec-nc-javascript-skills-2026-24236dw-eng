@@ -54,3 +54,13 @@ function displayProduct(_name, _price){
 if (age < 70){
 OUTPUT.innerHTML  ( "You can not buy a chocolate" )
 }
+age = int(input("How old are you?"))
+if ( age >= 70:) {
+	print("You are aged to perfection!")
+elif age == 50:
+	print("Wow, you are half a century old!")
+elif age >= 18:
+	print("You are an adult.")
+else:
+	print("You are a spring chicken!")
+    }
