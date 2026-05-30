@@ -52,5 +52,5 @@ function displayProduct(_name, _price){
 }
 
 if (age < 70){
-OUTPUT.innerHTML += ( "You can not buy a chocolate" )
+OUTPUT.innerHTML  ( "You can not buy a chocolate" )
 }
