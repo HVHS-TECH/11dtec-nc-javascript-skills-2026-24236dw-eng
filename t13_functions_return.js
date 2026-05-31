@@ -56,4 +56,8 @@ function welcome(){
 
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
-}/* Paste your code from the last task */
+}
+
+OUTPUT.innerHTML += "This week's pay:<br>"
+OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
+OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
