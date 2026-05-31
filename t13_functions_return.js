@@ -38,6 +38,11 @@ welcome()
 displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
+
+function calculateChange(_money,_price){
+let change = _money - _price;
+return change; 
+}
 if (money >= 4){
 OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
 OUTPUT.innerHTML += "<p>you will get $"+calculateChange(money, chocolatePrice)+" change";
@@ -58,9 +63,6 @@ function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
-function calculateChange(_money,_price){
-    let change = _money - _price;
-    return change; 
-}
+
 
 
