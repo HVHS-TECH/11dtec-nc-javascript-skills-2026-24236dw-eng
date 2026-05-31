@@ -13,10 +13,10 @@ main code
 ****************************/
 function start(){
 const NAME_FIELD = document.getElementById("nameField");
- let Username = NAME_FIELD.value;
+let Username = NAME_FIELD.value;
 const AGE_FIELD = document.getElementById("ageField");
- let Userage = Number(AGE_FIELD.value);
- const MONEY_FIELD = document.getElementById("moneyField");
+let Userage = Number(AGE_FIELD.value);
+const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
 let name = "archie";
 let pocketMoney = 2;
@@ -45,16 +45,7 @@ displayProduct("<p>drink: ", "$2.50");
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
 
-function calculate(_hours){
-}
 
-let mondayPay = calculatePay (8);
-let tuesdayPay = calculatePay(6);
-
-OUTPUT.innerHTML += "This week's pay:<br>"
-OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
-OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
-}
 /****************************
 functions
 ****************************/
@@ -65,4 +56,20 @@ function welcome(){
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
+function calculate(_hours){
+}
+let pay =_hours *18.80;
+pay = pay - (pay*0.105 );
+pay = pay - (pay*0.04);
+pay = pay + 10;
+return pay;
 
+let mondayPay = calculatePay (8);
+let tuesdayPay = calculatePay(6);
+
+OUTPUT.innerHTML += "This week's pay:<br>"
+OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
+OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
+
+
+}
