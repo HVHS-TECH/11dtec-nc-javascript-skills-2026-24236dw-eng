@@ -69,9 +69,6 @@ function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
-/****************************
-calculateChange FUNCTION
-****************************/
 function calculateChange(_money,_price){
     let change = _money - _price;
     return change; 
