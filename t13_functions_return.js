@@ -64,7 +64,7 @@ pay = pay - (pay*0.04);
 pay = pay + 10;
 return pay;
 
-OUTPUT.innerHTML += "This week's pay:<br>"
+OUTPUT.innerHTML += ":<br>"
 OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
 OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
 
