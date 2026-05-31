@@ -58,7 +58,7 @@ function displayProduct(_name, _price){
 }
 }
 function calculateChange(_money,_price){
-
+_money - _price = change
 }
 
 
