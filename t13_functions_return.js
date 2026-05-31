@@ -45,6 +45,18 @@ displayProduct("<p>drink: ", "$2.50");
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
 
+    if (pocketMoney2 >= 4){
+        OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
+
+        
+        let change = calculateChange(UserpocketMoney, 4);
+
+        OUTPUT.innerHTML += "<p>Your change will be $" + change + "</p>";
+    }
+    else{
+        OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
+    }
+}
 
 /****************************
 functions
@@ -56,10 +68,13 @@ function welcome(){
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
-}
+
+/****************************
+calculateChange FUNCTION
+****************************/
 function calculateChange(_money,_price){
-let change = _money - _price;
-return change; 
+    let change = _money - _price;
+    return change; 
 }
 
 
