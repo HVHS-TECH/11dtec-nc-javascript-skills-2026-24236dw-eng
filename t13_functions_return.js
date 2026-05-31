@@ -58,7 +58,8 @@ function displayProduct(_name, _price){
 }
 }
 function calculateChange(_money,_price){
-_money - _price = change
+let change = _money - _price;
+return change; 
 }
 
 
