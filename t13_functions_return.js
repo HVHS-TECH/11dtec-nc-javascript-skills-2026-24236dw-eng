@@ -58,18 +58,17 @@ function displayProduct(_name, _price){
 }
 function calculate(_hours){
 }
-let pay =_hours *18.80;
+let pay =_price*4.00;
 pay = pay - (pay*0.105 );
 pay = pay - (pay*0.04);
 pay = pay + 10;
 return pay;
 
-let mondayPay = calculatePay (8);
-let tuesdayPay = calculatePay(6);
-
 OUTPUT.innerHTML += "This week's pay:<br>"
 OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
 OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
 
-
 }
+
+let mondayPay = calculatePay (8);
+let tuesdayPay = calculatePay(6);
