@@ -44,19 +44,6 @@ displayProduct("<p>drink: ", "$2.50");
     else{
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
-function calculate(_){
-}
-let pay =_price*4.00;
-pay = pay - (pay*0.105 );
-pay = pay - (pay*0.04);
-pay = pay + 10;
-return pay;
-
-OUTPUT.innerHTML += ":<br>"
-OUTPUT.innerHTML += "chocolate: $"+chocolatePay+"<br>";
-}
-
-let chocolatePay = calculatePay (4);
 
 
 /****************************
@@ -69,4 +56,16 @@ function welcome(){
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
+function calculate(_){
+}
+let pay =_price*4.00;
+pay = pay - (pay*0.105 );
+pay = pay - (pay*0.04);
+pay = pay + 10;
+return pay;
 
+
+}
+
+let chocolatePay = calculatePay (8);
+let tuesdayPay = calculatePay(6);
