@@ -2,7 +2,7 @@
 Conditionals
 ****************************/
 
-console.log("Running t11_conditionals.js")
+console.log("Running t12_conditionals.js")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
 
