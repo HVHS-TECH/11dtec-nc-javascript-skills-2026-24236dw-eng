@@ -38,17 +38,13 @@ welcome()
 displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
-   if (pocketMoney2 >= 4){
-        OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
-
-        
-        let change = calculateChange(UserpocketMoney, 4);
-
-        OUTPUT.innerHTML += "<p>Your change will be $" + change + "</p>";
-    }
-    else{
-        OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
-    }
+if (money >= 4){
+OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
+OUTPUT.innerHTML += "<p>you will get $"+calculateChange(money, chocolatePrice)+" change";
+}
+else{
+ OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
+}
 }
 
 /****************************
