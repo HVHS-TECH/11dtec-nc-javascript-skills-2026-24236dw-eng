@@ -63,4 +63,3 @@ return change;
 }
 
 
-let change = calculateChange(userMoney, 4);
