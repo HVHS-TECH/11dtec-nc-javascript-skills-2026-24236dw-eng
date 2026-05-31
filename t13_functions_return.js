@@ -65,7 +65,7 @@ pay = pay + 10;
 return pay;
 
 OUTPUT.innerHTML += ":<br>"
-OUTPUT.innerHTML += "chocolate: $"+mondayPay+"<br>";
+OUTPUT.innerHTML += "chocolate: $"++"<br>";
 }
 
 let chocolatePay = calculatePay (4);
