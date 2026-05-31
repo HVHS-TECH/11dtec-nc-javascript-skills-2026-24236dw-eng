@@ -44,7 +44,9 @@ displayProduct("<p>drink: ", "$2.50");
     else{
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
-
+OUTPUT.innerHTML += "This week's pay:<br>"
+OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
+OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
 }
 
 /****************************
@@ -58,6 +60,3 @@ function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
-OUTPUT.innerHTML += "This week's pay:<br>"
-OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
-OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
