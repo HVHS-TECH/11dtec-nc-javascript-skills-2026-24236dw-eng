@@ -44,18 +44,6 @@ displayProduct("<p>drink: ", "$2.50");
     else{
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
-
-
-/****************************
-functions
-****************************/
-function welcome(){
-    OUTPUT.innerHTML += "<p>welcome to the shop:";
-}
-
-function displayProduct(_name, _price){
-    OUTPUT.innerHTML += _name + _price
-}
 function calculate(_){
 }
 let pay =_price*4.00;
@@ -69,3 +57,16 @@ OUTPUT.innerHTML += "chocolate: $"+chocolatePay+"<br>";
 }
 
 let chocolatePay = calculatePay (4);
+
+
+/****************************
+functions
+****************************/
+function welcome(){
+    OUTPUT.innerHTML += "<p>welcome to the shop:";
+}
+
+function displayProduct(_name, _price){
+    OUTPUT.innerHTML += _name + _price
+}
+
