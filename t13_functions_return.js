@@ -56,7 +56,7 @@ function welcome(){
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
-function calculate(_hours){
+function calculate(_){
 }
 let pay =_price*4.00;
 pay = pay - (pay*0.105 );
