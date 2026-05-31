@@ -56,19 +56,4 @@ function welcome(){
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
-function calculate(_){
 }
-let pay =_price*4.00;
-pay = pay - (pay*0.105 );
-pay = pay - (pay*0.04);
-pay = pay + 10;
-return pay;
-var change = 
-OUTPUT.innerHTML += ":<br>"
-OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
-OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
-
-}
-
-let chocolatePay = calculatePay (8);
-let tuesdayPay = calculatePay(6);
