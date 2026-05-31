@@ -63,7 +63,7 @@ pay = pay - (pay*0.105 );
 pay = pay - (pay*0.04);
 pay = pay + 10;
 return pay;
-var change 
+var change = 
 OUTPUT.innerHTML += ":<br>"
 OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
 OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
