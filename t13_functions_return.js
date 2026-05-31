@@ -63,5 +63,4 @@ return change;
 }
 
 
-let moneyPay = calculateChange (4);
-let pricePay = calculateChange (10);
+let change = calculateChange(userMoney, 4);
