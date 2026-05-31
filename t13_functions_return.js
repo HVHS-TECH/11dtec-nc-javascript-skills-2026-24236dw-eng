@@ -57,6 +57,6 @@ function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 }
-function calculateChange(_return){
+function calculateChange(_money){
 
 }
