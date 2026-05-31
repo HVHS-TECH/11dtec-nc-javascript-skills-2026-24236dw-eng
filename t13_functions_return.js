@@ -44,11 +44,17 @@ displayProduct("<p>drink: ", "$2.50");
     else{
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
+
+function calculate(_hours){
+}
+
+let mondayPay = calculatePay (8);
+let tuesdayPay = calculatePay(6);
+
 OUTPUT.innerHTML += "This week's pay:<br>"
 OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
 OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
 }
-
 /****************************
 functions
 ****************************/
