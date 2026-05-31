@@ -38,14 +38,7 @@ welcome()
 displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
-    if (pocketMoney2 >= 4){
-        OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
-    }
-    else{
-        OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
-    }
-
-    if (pocketMoney2 >= 4){
+   if (pocketMoney2 >= 4){
         OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
 
         
