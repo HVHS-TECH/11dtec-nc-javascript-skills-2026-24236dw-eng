@@ -65,10 +65,7 @@ pay = pay + 10;
 return pay;
 
 OUTPUT.innerHTML += ":<br>"
-OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
-OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
-
+OUTPUT.innerHTML += "chocolate: $"+mondayPay+"<br>";
 }
 
-let mondayPay = calculatePay (8);
-let tuesdayPay = calculatePay(6);
+let chocolatePay = calculatePay (4);
