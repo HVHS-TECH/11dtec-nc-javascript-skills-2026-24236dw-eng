@@ -58,5 +58,5 @@ function displayProduct(_name, _price){
 }
 }
 function calculateChange(_money,_price){
-
+let moneyPay = 
 }
