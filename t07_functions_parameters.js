@@ -45,6 +45,6 @@ displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
 
 Welcome ();
-function displayProduct(_age, _) {
+function displayProduct(_age, _username) {
 OUTPUT.innerHTML += "<p>" + _age + ""
 }
