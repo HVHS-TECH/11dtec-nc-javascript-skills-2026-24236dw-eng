@@ -10,9 +10,11 @@ let age= 16;
 let money= 10;
 let birthYear;
 let oldAge;
+let seasons
 oldAge= age + 10;
 birthYear= year - age;
 halfmoney= money / 2
+seasons= 
 
 /****************************
 Main code 
