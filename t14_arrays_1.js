@@ -25,7 +25,6 @@ let year = 2026;
 let chocolatePrice = 4
 let drinkPrice = 2.5
 let chipsPrice = 3
-let cars = ["sabb", "vololo","bmw"];
 var yearBorn = year-Userage;
 var tenYears = Userage+10;
 var halfMoney = UserpocketMoney/2;
@@ -66,3 +65,8 @@ function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
+
+
+let peopleArray = ["ben", "jeremy", "archie", "nick", "josh", "harry"];
+let choice = CHOOSE_FIELD.value;
+OUTPUT.innerHTML = "You chose: "+peopleArray[choice]+"<br>";
