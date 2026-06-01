@@ -69,6 +69,6 @@ function displayProduct(_name, _price){
 
 function start() {
 let chocolateMessage = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-
-
+let rating = Number(document.getElementById("ratingField").value);
+OUTPUT.innerHTML += chocolateMessages[rating];
 }
