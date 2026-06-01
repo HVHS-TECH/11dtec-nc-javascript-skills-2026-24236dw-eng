@@ -52,10 +52,6 @@ return change;
     else{
         OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
-
-
-
-
 }
 
 /****************************
