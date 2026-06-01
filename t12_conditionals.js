@@ -10,6 +10,7 @@ OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
 
 /****************************
 main code
+
 ****************************/
 function start(){
 const NAME_FIELD = document.getElementById("nameField");
