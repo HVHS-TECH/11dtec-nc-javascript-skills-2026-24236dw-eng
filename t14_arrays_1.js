@@ -67,9 +67,8 @@ function displayProduct(_name, _price){
 
 
 
-let carsArray = ["sabb", "vololo","bmw"];
-OUTPUT.innerHTML = "The second car in the garage is "+carsArray[2];
+function start() {
+let chocolateMessage = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
 
-let chocolateArray = ["ben", "jeremy", "archie", "nick", "josh", "harry"];
-let choice = CHOOSE_FIELD.value;
-OUTPUT.innerHTML = "You chose: "+peopleArray[choice]+"<br>";
+
+}
