@@ -10,7 +10,7 @@ let age= 16;
 let money= 10;
 let birthYear;
 let oldAge;
-let seasons
+let seasons= 4;
 oldAge= age + 10;
 birthYear= year - age;
 halfmoney= money / 2
@@ -25,6 +25,7 @@ console.log("In 10 years you will be " + oldAge + " years old")
 console.log("You have " + money + " dollars")
 console.log("You spend half your money, now you have " + halfmoney + " dollars")
 console.log("You get $3," +" now you have "+ (halfmoney + 3) + " dollars ")
+console.log("")
 
 
 
