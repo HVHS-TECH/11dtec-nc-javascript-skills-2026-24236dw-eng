@@ -13,10 +13,10 @@ main code
 ****************************/
 function start(){
 const NAME_FIELD = document.getElementById("nameField");
- let Username = NAME_FIELD.value;
+let Username = NAME_FIELD.value;
 const AGE_FIELD = document.getElementById("ageField");
- let Userage = Number(AGE_FIELD.value);
- const MONEY_FIELD = document.getElementById("moneyField");
+let Userage = Number(AGE_FIELD.value);
+const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
 let name = "archie";
 let pocketMoney = 2;
