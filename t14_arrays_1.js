@@ -25,6 +25,7 @@ let year = 2026;
 let chocolatePrice = 4
 let drinkPrice = 2.5
 let chipsPrice = 3
+let cars = ["sabb", "vololo","bmw"];
 var yearBorn = year-Userage;
 var tenYears = Userage+10;
 var halfMoney = UserpocketMoney/2;
