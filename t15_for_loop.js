@@ -18,7 +18,7 @@ const AGE_FIELD = document.getElementById("ageField");
 let Userage = Number(AGE_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
-let name = "archie";
+let name = "Diwakar";
 let pocketMoney = 2;
 let age = 16;
 let year = 2026;
@@ -71,3 +71,4 @@ let chocolateMessages = ["You loath chocolate","Chocolate is meh","Chocolate is 
 let rating = Number(document.getElementById("ratingField").value);
 OUTPUT.innerHTML += "<p>" + chocolateMessages[rating] + "</p>";
 }
+
