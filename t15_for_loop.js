@@ -73,7 +73,7 @@ OUTPUT.innerHTML += "<p>" + chocolateMessages[rating] + "</p>";
 }
 
 console.log ("starting loop");
-for (count= 0; count < 10; count ++){
-console.log("current count" + count);
+for (count = 0; count < 10; count ++){
+console.log("Current Count" + count);
 }
 console.log ("Loop stopped!");
