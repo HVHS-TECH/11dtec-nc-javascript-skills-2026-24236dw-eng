@@ -72,7 +72,8 @@ let rating = Number(document.getElementById("ratingField").value);
 OUTPUT.innerHTML += "<p>" + chocolateMessages[rating] + "</p>";
 }
 
-//Counting down
-for(let i=10; i>=0; i--){
-  console.log("Current count: "+i);
+console.log ("starting loop");
+for (count= 0; count < 10; count ++){
+console.log("current count" + count);
 }
+console.log ("Loop stopped!");
