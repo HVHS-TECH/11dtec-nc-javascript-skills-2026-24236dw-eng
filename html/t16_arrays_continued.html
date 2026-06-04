@@ -22,7 +22,7 @@
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 <button onClick="start()">start </button>
 --------------------------------------------
-<button onClick="shoppinglist()">Shopping List </button>
+
 
 <form onsubmit="return false;">
 <label for=":formName">Name:</label>
@@ -37,11 +37,15 @@
 <label for=":FormName">Rate chocolate:</label>
 <input id="ratingField" placeholder="choose from 0-3">
 
-<label for=":FormName">shopping list</label>
-<input id=" shoppingList">
-
 <input type="submit" onClick=getFormInput()>
 </form>
+
+<form onsumbit="return false;">
+<label for=" formlist"> Add an item to your list:</label>
+<input type="text" id="lisrField" name="formItem" placeholder="Item">
+<input type="submit" onClick=getFormInput()>
+
+
   <div id="spaceForJavaScriptOutput">
 
     The output of your script will go here.
