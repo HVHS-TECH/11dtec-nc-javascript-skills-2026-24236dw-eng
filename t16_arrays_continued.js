@@ -74,6 +74,6 @@ OUTPUT.innerHTML += "<p>" + chocolateMessages[rating] + "</p>";
 function getFormInput () {
 const LIST_FIELD = document.getElementById("listField");
 item = LIST_FIELD.value; 
-listarray
+listarray.push item
 
 }
