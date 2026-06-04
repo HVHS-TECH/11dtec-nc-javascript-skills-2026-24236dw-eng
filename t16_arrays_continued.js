@@ -71,3 +71,7 @@ let chocolateMessages = ["You loath chocolate","Chocolate is meh","Chocolate is 
 let rating = Number(document.getElementById("ratingField").value);
 OUTPUT.innerHTML += "<p>" + chocolateMessages[rating] + "</p>";
 }
+function shoppinglist(){
+output
+
+}
