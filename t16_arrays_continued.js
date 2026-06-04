@@ -18,6 +18,7 @@ const AGE_FIELD = document.getElementById("ageField");
 let Userage = Number(AGE_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
+let item
 let name = "diwakar";
 let pocketMoney = 2;
 let age = 16;
@@ -80,6 +81,6 @@ OUTPUT.innerHTML = "<p>You have added" + item + " to your list <p>" ;
 function displaylist () {
 OUTPUT.innerHTML = "<h1>Your list: </h1>";
 for (let i = 0; <listarray.length; i++){
-    
+
 }
 }
