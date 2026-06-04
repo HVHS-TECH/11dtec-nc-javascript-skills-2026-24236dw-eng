@@ -77,6 +77,9 @@ item = LIST_FIELD.value;
 listarray.push (item)
 OUTPUT.innerHTML = "<p>You have added" + item + " to your list <p>" ;
 }
-function getFormInput () {
-OUTPUT.innerHTML = "<p>You have added" + item + " to your list <p>" ;
+function displaylist () {
+OUTPUT.innerHTML = "<h1>Your list: </h1>";
+for (let i = 0; <listarray.length; i++){
+    
+}
 }
