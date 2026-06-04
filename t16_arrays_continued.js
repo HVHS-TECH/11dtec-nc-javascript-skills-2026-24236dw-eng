@@ -1,48 +1,73 @@
 /****************************
-Name of Task: Arrays_continued
+Functions return
 ****************************/
-//Loop from 0 to 9
-console.log( "Starting Loop");
-for(let i=99; i>0; i--){
-    console.log( + i + " bottles of milk on the wall, " + i + " bottles of milk. Take one down and pass it around, " + (i-1) + " bottles of milk on the wall.")
-}
 
-console.log( "Loop finished");
-//Variables
- let username =" Ayush ";
- let year = 2026;
- let age = 14;
- let money = 10;
+console.log("Running t13_functions_return.js")
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
+
+//variables
 
 /****************************
- Main Code
- ****************************/
-function singSong() {
+main code
+****************************/
+function start(){
+const NAME_FIELD = document.getElementById("nameField");
+let Username = NAME_FIELD.value;
+const AGE_FIELD = document.getElementById("ageField");
+let Userage = Number(AGE_FIELD.value);
+const MONEY_FIELD = document.getElementById("moneyField");
+let UserpocketMoney = Number(MONEY_FIELD.value);
+let name = "diwakar";
+let pocketMoney = 2;
+let age = 16;
+let year = 2026;
+let chocolatePrice = 4
+let drinkPrice = 2.5
+let chipsPrice = 3
+var yearBorn = year-Userage;
+var tenYears = Userage+10;
+var halfMoney = UserpocketMoney/2;
+var money = UserpocketMoney/2+3;
+OUTPUT.innerHTML += "<p>Hi "+ Username;
+OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
+OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
+OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears;
+OUTPUT.innerHTML += "<p>you have " + UserpocketMoney + " dollars.";
+OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + halfMoney + " dollars";
+OUTPUT.innerHTML += "<p>then you get $3, you now have " + money + " dollars" ;
 
-    const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
-    let bottles = Number(document.getElementById("bottleField").value);
-
-    OUTPUT.innerHTML = "";
-
-    for (let i = bottles; i > 0; i--) {
-
-        if (i === 1) {
-            OUTPUT.innerHTML += "<p>1 bottle of milk on the wall, 1 bottle of milk.</p>";
-            OUTPUT.innerHTML += "<p>Take it down, pass it around, no more bottles of milk on the wall.</p><br>";
-        }
-        else if (i === 2) {
-            OUTPUT.innerHTML += "<p>2 bottles of milk on the wall, 2 bottles of milk.</p>";
-            OUTPUT.innerHTML += "<p>Take one down, pass it around, 1 bottle of milk on the wall.</p><br>";
-        }
-        else {
-            OUTPUT.innerHTML += "<p>" + i + " bottles of milk on the wall, " + i + " bottles of milk.</p>";
-            OUTPUT.innerHTML += "<p>Take one down, pass it around, " + (i - 1) + " bottles of milk on the wall.</p><br>";
-        }
+welcome()
+displayProduct("<p>chocolate: ", "$4.00");
+displayProduct("<p>chips: ", "$3.00");
+displayProduct("<p>drink: ", "$2.50");
+function calculateChange(_money, _price){
+let change = _money - _price
+return change;
+}
+    if (money >= 4){
+        OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar";
+        OUTPUT.innerHTML += "<p>you will get $"+calculateChange(money, chocolatePrice)+" change";
+    }
+    else{
+        OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
     }
 }
 
+/****************************
+functions
+****************************/
+function welcome(){
+    OUTPUT.innerHTML += "<p>welcome to the shop:";
+}
 
- /****************************
-  Functions
-   ****************************/
+function displayProduct(_name, _price){
+    OUTPUT.innerHTML += _name + _price
+}
+
+
+function getFormInput () {
+let chocolateMessages = ["You loath chocolate","Chocolate is meh","Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
+let rating = Number(document.getElementById("ratingField").value);
+OUTPUT.innerHTML += "<p>" + chocolateMessages[rating] + "</p>";
+}
