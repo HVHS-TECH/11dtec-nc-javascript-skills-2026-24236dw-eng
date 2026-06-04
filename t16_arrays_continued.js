@@ -19,6 +19,7 @@ let Userage = Number(AGE_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
 let item
+let listArray= [];
 let name = "diwakar";
 let pocketMoney = 2;
 let age = 16;
