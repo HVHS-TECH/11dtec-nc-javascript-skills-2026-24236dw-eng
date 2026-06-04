@@ -75,5 +75,8 @@ function getFormInput () {
 const LIST_FIELD = document.getElementById("listField");
 item = LIST_FIELD.value; 
 listarray.push (item)
-OUTPUT.innerHTML += "<p>You have added" + item + " to your list <p>" ;
+OUTPUT.innerHTML = "<p>You have added" + item + " to your list <p>" ;
+}
+function getFormInput () {
+OUTPUT.innerHTML = "<p>You have added" + item + " to your list <p>" ;
 }
