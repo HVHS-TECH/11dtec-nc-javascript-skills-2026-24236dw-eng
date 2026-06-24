@@ -54,9 +54,6 @@ return change;
     }
 }
 
-/****************************
-functions
-****************************/
 function welcome(){
     OUTPUT.innerHTML += "<p>welcome to the shop:";
 }
